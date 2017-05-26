@@ -1,0 +1,265 @@
+/*DIMENSIONS CONTAINER*/
+
+.wrapper {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.wrapper_p {
+  max-width: 100%;
+  margin-left: 10vw;
+  margin-bottom: 10vw;
+  
+}
+
+/*BASIC FONT & COLORS STYLING*/
+
+.wrapper
+.wrapper_p {
+  text-align: left;
+  font-family: Helvetica, Arial, Roboto, sans-serif;
+  color: #31393F;
+}
+
+h1 {
+  font-family: "Times New Roman";
+  font-size: 7vw;
+  color: #31393F;
+}
+
+h2 {
+  font-family: "Times New Roman";
+  font-size: 3vw;
+  color: #31393F;
+}
+
+p,
+span {
+   font-family: Helvetica, Arial, Roboto, sans-serif;
+  font-size: 1.5vw;
+  color: #31393F;
+}
+/*NAVIGATION BAR*/
+
+nav {
+ margin-top: 1.05vw;
+ margin-bottom: 11.5vw;
+}
+
+nav ul {
+  padding-left: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 5%;
+  font-size: 1.3vw;
+}
+
+nav li p {
+  font-size: 1.3vw;
+}
+ 
+
+
+a:link {
+  text-decoration:none;
+  color: #31393F;
+}
+
+nav a:visited {
+  color: #31393F;
+}
+
+nav a:hover {
+  color: #818689;
+}
+
+
+/*FIRST DESCRIPTION*/
+
+.h1-header {
+	margin-top: 1.05vw;
+	margin-bottom: 2vw;
+	line-height: 1.1em;
+	font-size: 7vw;
+	font-weight: bold;
+	text-align: left;
+}
+
+span {
+  font-size: 2vw;
+  margin-top: 1.05vw;
+  margin-top: 1.05vw;
+	margin-bottom: 5.27vw;
+}
+
+.p-header {
+  white-space:normal;
+  font-size: 2vw;
+  border-top: solid;
+  border-bottom: solid;
+  border-width: 0.09em;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  margin-bottom: 17vw;
+  line-height: 2.5vw;
+  
+}
+
+/*SECTION NUESTROS EXPERTOS*/
+
+.consultor {
+  width: 50vw;
+  height: 38vw;
+  float: right;
+  margin-left: 5vw;
+}
+
+
+.p_expertos1,
+.p_expertos2,
+.p_expertos3,
+.p_expertos4 {
+  line-height: 2.5vw;
+  font-size: 1.5vw;
+
+  
+}
+
+.p_expertos4 {
+  font-weight: bold;
+}
+
+
+/*SECTION CRISTINA NOVELLA*/
+
+.headercristina {
+  margin-bottom: 1vw;
+}
+
+.subheadercristina {
+  font-size: 1.3vw;
+  font-weight: bolder;
+  margin-top: 0;
+  margin-bottom: 3vw;
+}
+
+.portrait {
+ width: 48vw;
+ height: 32vw;
+ float: left;
+ margin-bottom: 12vw;
+  
+}
+
+/*SECTION ÁREAS ACTUACIÓN*/
+
+ul {
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+}
+
+.cerdito,
+.cerdito1,
+.cerdito2,
+.cerdito3,
+.cerdito4,
+.cerdito5 {
+  display:flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 22vw;
+  height: 22vw;
+  background: #F2F3F6;
+  text-align: center;
+  border-radius: 0.5vw;
+}
+
+
+
+
+.cerdito p,
+.cerdito1 p,
+.cerdito2 p,
+.cerdito3 p,
+.cerdito4 p,
+.cerdito5 p {
+  font-size: 1.3vw;
+  margin-top: 2vw;
+  
+}
+
+.cerdito img,
+.cerdito1 img,
+.cerdito2 img,
+.cerdito3 img,
+.cerdito4 img,
+.cerdito5 img {
+  width: 3.8vw;
+  height: 4vw;
+   
+}
+
+.cerdito,
+.cerdito1,
+.cerdito3,
+.cerdito4 {
+  margin-right: 6.5vw;
+}
+
+.cerdito,
+.cerdito1,
+.cerdito2 {
+  margin-bottom: 6vw;
+}
+
+/*SECTION VALORAMOS*/
+
+.wrapper_principal {
+  width: 100%;
+  background: #F2F3F6;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+
+.top_right ul  {
+  display:flex; 
+  flex-direction: column;
+  color: #31393F;
+  padding-top: 3vw;
+  padding-bottom: 6vw;
+  padding-left: 10vw;
+}
+
+
+.top_right ul li {
+  margin-top: 5vw;
+  font-family: Helvetica, Arial, Roboto, sans-serif;
+  font-size: 2.3vw;
+  list-style: none;
+ 
+}
+
+.bottom_left {
+  float: left;
+}
+
+
+
+
+
+.clientes {
+  margin-bottom: 0vw;
+}
+
+.p_clientes {
+  margin-bottom: 4vw;
+}
+
+
