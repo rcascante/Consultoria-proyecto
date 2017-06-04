@@ -1,0 +1,393 @@
+/*DIMENSIONS CONTAINER*/
+
+.wrapper {
+  max-width: 90%;
+  margin: 0 0 0 10%;
+}
+
+.wrapper_p, {
+  max-width: 100%;
+  margin-bottom: 10vw;
+}
+
+
+/**************************
+
+BASIC FONT & COLORS STYLING
+
+**************************/
+
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 5.85vw;
+  font-weight: normal;
+  color: #262C30;
+}
+
+h2 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 3vw;
+  color: #31393F;
+}
+
+p,
+span{
+  text-align: left;
+  font-family: 'Poppins',sans-serif;
+  font-size: 1.36vw;
+  line-height: 2.24vw;
+  color: #262C30;
+}
+
+
+/****************
+
+NAVIGATION BAR
+
+****************/
+
+nav {
+ margin-top: 7.12vw;
+ margin-bottom: 15.91vw;
+}
+
+nav ul {
+  padding-left: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 4.88vw;  
+}
+
+a:link {
+  text-decoration:none;
+  color: #262C30;;
+}
+
+nav a:visited {
+  color: #262C30;;
+}
+
+nav a:hover {
+  color: #C0a95a;
+}
+
+
+/****************
+
+FIRST DESCRIPTION
+
+****************/
+
+.existimos-para-crear {
+	margin-bottom: 2vw;
+	line-height: 7vw;
+  font-weight: normal;
+	text-align: left;
+}
+
+
+.existimos-para-crear em {
+  color:#C0a95a; 
+  font-style:normal;
+}
+
+
+.cena-es {
+  font-size: 1.75vw;
+  line-height: 2.83vw;
+  border-top: 0.09vw solid #262C30;
+  border-bottom: 0.09vw  solid #262C30;
+  padding-top: 2.25vw;
+  padding-bottom: 2.73vw;
+  margin-bottom: 16.11vw;
+  margin-right: 24.90vw;
+}
+
+
+
+/****************
+
+NUESTROS EXPERTOS
+
+****************/
+
+.wrapper_p {
+  margin-top: 9.60vw;
+  margin-bottom: 11.13vw;
+  margin-left: 10vw;
+}
+
+.img_consultores {
+  width: 49.6vw;
+  height: 40vw;
+  float: right;
+  margin-left: 7.22vw;
+  margin-top: 4.35vw;
+  margin-bottom: 8.3vw;
+}
+
+
+/************************
+
+SECTION CRISTINA NOVELLA
+
+************************/
+
+.wrapper_cristina {
+  background-color: #F0F1F5;
+  margin-left: 0;
+  height: 42.39vw;
+  margin-bottom: 12.69vw;
+  
+}
+
+.headercristina {
+  padding-top: 2.54vw;
+  margin-bottom: 0.3vw;
+  margin-left: 40vw;
+}
+
+.subheadercristina {
+  font-size: 1.3vw;
+  margin-top:0;
+  margin-bottom: 3vw;
+  font-weight: 900;
+}
+
+.portrait {
+ width: 21.5vw;
+ height: 28.32vw;
+ float: left;
+ margin-top: 12vw;
+ margin-right: 20vw;
+ margin-left: 8.2vw;
+  
+}
+
+/**********************
+SECTION ÁREAS ACTUACIÓN
+**********************/
+
+.areas_actuacion {
+  margin-bottom: 5.37vw;
+}
+
+ul {
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  column-count: 2;
+}
+
+.area1,
+.area2,
+.area3,
+.area4,
+.area5,
+.area6 {
+  display:flex; 
+  flex-direction: column;
+  align-items: center;
+  width: 21.68vw;
+  height: 21.68vw;
+  max-width: 21.68vw;
+  max-height: 21.68vw;
+  background: #F2F3F6;
+  justify-content: center;
+  border-radius: 0.3vw;
+}
+
+
+.area1 p,
+.area2 p,
+.area3 p,
+.area4 p,
+.area5 p,
+.area6 p {
+  margin-top: 2vw;
+  text-align: center;
+
+}
+
+.area1 img,
+.area2 img,
+.area3 img,
+.area4 img,
+.area5 img,
+.area6 img {
+  width: 5.17vw;
+  height: 5.17vw;
+  margin: 3vw 7.8vw 0vw 7.8vw;
+   
+}
+
+.area1,
+.area2,
+.area3,
+.area4,
+.area5 {
+  margin-right: 7.32vw;
+}
+
+.area1
+.area2,
+.area3 {
+  margin-bottom: 6vw;
+}
+
+
+.area5 p {
+  margin-bottom: 0;
+}
+
+/*SECTION VALORAMOS*/
+
+.wrapper_principal {
+  width: 100%;
+  background: #F2F3F6;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+
+.top_right ul  {
+  display:flex; 
+  flex-direction: column;
+  color: #31393F;
+  padding-top: 2.14vw;
+  padding-bottom: 6vw;
+  padding-left: 10vw;
+  width: 100%;
+}
+
+
+.top_right ul li {
+  margin-top: 5vw;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-size: 2.34vw;
+  list-style: none;
+  padding-right: 4vw;
+ 
+}
+
+.bottom_left {
+  float: left;
+  width: 40%
+}
+
+
+.bottom_left .top {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 5.85vw;
+  margin-bottom: 4vw;
+}
+
+.bottom_left .bottom {
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-size: 2.34vw;
+  margin-bottom: 6.9vw;
+  margin-top: 0.2vw;
+}
+
+.clientes {
+  margin-bottom: 1.27vw;
+  margin-top: 15vw;
+}
+
+.p_clientes {
+  margin-bottom: 2.14vw;
+}
+
+/*ACTIVIDAD*/
+
+.actividad {
+  width: 50%;
+  margin-left: 10vw;
+  margin-top: 15.62vw;
+}
+
+.actividad h1 {
+  margin-bottom: 0vw;
+}
+
+
+.desarrollamos_actividad {
+  margin-bottom: 3.91vw;
+}
+
+
+.destinos {
+  display: flex;
+  margin-left: 10vw;
+  margin-bottom: 11.13vw;
+}
+
+.destinos1 {
+  flex-direction: column;
+  line-height: 5vw;
+  
+}
+
+.destinos2 {
+  flex-direction: column;
+  margin-left: 8.39vw;
+  margin-right: 7.71vw;
+  line-height: 5vw;
+}
+
+
+.destinos p {
+  border-bottom: solid;
+  border-bottom: 0.09vw solid #262C30;
+  margin-bottom: 4.5vw;
+  padding-bottom: 0.3vw;
+  padding-right: 2vw;
+  font-size: 2vw;
+
+}
+
+.edificio {
+  float: right;
+  margin-top: 12vw;
+  margin-bottom: 11vw;
+  height:38.7vw;
+  width: 43vw;
+}
+
+/*FOOTER*/
+
+/* #262C30 */
+
+footer {
+  width: 100%;
+  background-color: #262C30;
+}
+  
+
+.contacto {
+  color: #fff;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer1 {
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
